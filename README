@@ -1,0 +1,13 @@
+C project template
+==================
+
+This is a template designed as a starting point for C projects.
+
+Dependensies:
+  - make: https://www.gnu.org/software/make/
+  - check: https://libcheck.github.io/check/
+  - checkmk: http://micah.cowan.name/projects/checkmk/
+  - valgrind: http://valgrind.org/
+
+
+Erik Liodden

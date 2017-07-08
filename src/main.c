@@ -1,3 +1,10 @@
+/*
+ * main.c
+ * sample main.c file containing the main() function.
+ *
+ * Erik Liodden
+ */
+
 #include <stdio.h>
 #include "implementation.h"
 

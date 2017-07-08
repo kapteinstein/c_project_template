@@ -2,22 +2,22 @@ all: prog
 
 prog:
 	@mkdir -p bin
-	@make -C src
+	make -C src
 	@cp src/prog ./bin
 
 debug:
 	@mkdir -p bin
-	@make -C src debug
+	make -C src debug
 	@cp src/prog ./bin/prog-debug
 
 valgrind:
 	@mkdir -p bin
-	@make -C src debug
+	make -C src debug
 	@cp src/prog ./bin/prog-debug
 	valgrind --leak-check=full --track-origins=yes ./bin/prog-debug
 
 test:
-	@make -C test/
+	make -C test/
 	@mkdir -p bin
 	@cp test/test ./bin
 	@./bin/test
